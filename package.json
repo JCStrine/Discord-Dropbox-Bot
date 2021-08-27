@@ -1,0 +1,21 @@
+{
+  "name": "discordbot-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^10.0.0",
+    "dropbox": "^10.8.0",
+    "dropbox-v2-api": "^2.4.47",
+    "node": "16.6.1"
+  }
+}
